@@ -2222,77 +2222,77 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
 }).controller('SubheaderAppCtrl', function ($scope) {
     $scope.messages = [
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
             notes: " I'll be in your neighborhood doing errands"
         },
         {
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: 'Brunch this weekend?',
             who: 'Min Li Chan',
             when: '3:08PM',
@@ -2402,7 +2402,7 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
     $scope.demo = {};
 }).controller('ToolbarShrinkDemoCtrl', function($scope) {
     var item = {
-        face: 'dist/img/user.png',
+        face: 'img/user.png',
         what: 'Brunch this weekend?',
         who: 'Min Li Chan',
         notes: "I'll be in your neighborhood doing errands."
@@ -2410,7 +2410,7 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
     $scope.todos = [];
     for (var i = 0; i < 15; i++) {
         $scope.todos.push({
-            face: 'dist/img/user.png',
+            face: 'img/user.png',
             what: "Brunch this weekend?",
             who: "Min Li Chan",
             notes: "I'll be in your neighborhood doing errands."
@@ -2458,10 +2458,10 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
     };
 }).controller('ListBottomSheetCtrl', function($scope, $mdBottomSheet) {
         $scope.items = [
-            { name: 'Share', icon: 'dist/img/icons/ic_share_48px.svg' },
-            { name: 'Upload', icon: 'dist/img/icons/ic_cloud_upload_48px.svg' },
-            { name: 'Copy', icon: 'dist/img/icons/ic_content_copy_48px.svg' },
-            { name: 'Print this page', icon: 'dist/img/icons/ic_local_print_shop_48px.svg' },
+            { name: 'Share', icon: 'img/icons/ic_share_48px.svg' },
+            { name: 'Upload', icon: 'img/icons/ic_cloud_upload_48px.svg' },
+            { name: 'Copy', icon: 'img/icons/ic_content_copy_48px.svg' },
+            { name: 'Print this page', icon: 'img/icons/ic_local_print_shop_48px.svg' },
         ];
         $scope.listItemClick = function($index) {
             var clickedItem = $scope.items[$index];
@@ -2470,12 +2470,12 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
     })
     .controller('GridBottomSheetCtrl', function($scope, $mdBottomSheet) {
         $scope.items = [
-            { name: 'Share', icon: 'dist/img/icons/ic_share_48px.svg' },
-            { name: 'Upload', icon: 'dist/img/icons/ic_cloud_upload_48px.svg' },
-            { name: 'Copy', icon: 'dist/img/icons/ic_content_copy_48px.svg' },
-            { name: 'Print', icon: 'dist/img/icons/ic_local_print_shop_48px.svg' },
-            { name: 'Location', icon: 'dist/img/icons/ic_my_location_48px.svg' },
-            { name: 'Messages', icon: 'dist/img/icons/ic_message_48px.svg' },
+            { name: 'Share', icon: 'img/icons/ic_share_48px.svg' },
+            { name: 'Upload', icon: 'img/icons/ic_cloud_upload_48px.svg' },
+            { name: 'Copy', icon: 'img/icons/ic_content_copy_48px.svg' },
+            { name: 'Print', icon: 'img/icons/ic_local_print_shop_48px.svg' },
+            { name: 'Location', icon: 'img/icons/ic_my_location_48px.svg' },
+            { name: 'Messages', icon: 'img/icons/ic_message_48px.svg' },
         ];
         $scope.listItemClick = function($index) {
             var clickedItem = $scope.items[$index];
@@ -2570,13 +2570,13 @@ angular.module('app.material', ['ngMaterial']).controller('SwitchCtrl', function
   })
 .controller('UserBottomSheetCtrl', function($scope, $mdBottomSheet) {
     $scope.items = [
-        { name: 'Teal',machine_name:'teal',color:'#009688', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        { name: 'Orange',machine_name:'orange',color:'#F57C00', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        { name: 'Indigo',machine_name:'indigo',color:'#3F51B5', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        {  name: 'Red',machine_name:'red',color:'#D32F2F', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        {  name: 'Blue',machine_name:'blue',color:'#1976D2', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        { name: 'Green',machine_name:'green',color:'#4CAF50', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' },
-        { name: 'Brown',machine_name:'brown',color:'#795548', icon: 'dist/img/icons/ic_gps_fixed_48px.svg' }
+        { name: 'Teal',machine_name:'teal',color:'#009688', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        { name: 'Orange',machine_name:'orange',color:'#F57C00', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        { name: 'Indigo',machine_name:'indigo',color:'#3F51B5', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        {  name: 'Red',machine_name:'red',color:'#D32F2F', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        {  name: 'Blue',machine_name:'blue',color:'#1976D2', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        { name: 'Green',machine_name:'green',color:'#4CAF50', icon: 'img/icons/ic_gps_fixed_48px.svg' },
+        { name: 'Brown',machine_name:'brown',color:'#795548', icon: 'img/icons/ic_gps_fixed_48px.svg' }
     ];
     $scope.listItemClick = function($index) {
         var clickedItem = $scope.items[$index];

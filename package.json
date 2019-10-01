@@ -1,10 +1,12 @@
 {
   "name": "mao-ioadmin",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/maciejmao/appDashboardDemo#readme",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "grunt": "~0.4.5",
     "grunt-bower-task": "~0.3.4",
     "grunt-cli": "~0.1.13",

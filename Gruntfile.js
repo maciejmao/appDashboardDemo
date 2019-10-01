@@ -82,6 +82,20 @@ module.exports = function(grunt) {
                     cwd: 'download',
                     src: ['*.*','*/*'],
                     dest: 'dist/img'
+                },{
+                    //for static files - index
+                    expand: true,
+                    dot: true,
+                    cwd: '',
+                    src: ['index.html','favicon.ico'],
+                    dest: 'dist'
+                },{
+                    //for static files - html templates
+                    expand: true,
+                    dot: true,
+                    cwd: 'app/views',
+                    src: ['*.*','*/*'],
+                    dest: 'dist/app/views'
                 },
                 {
                     //for Images
@@ -202,7 +216,8 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: 'localhost',
-                    port: 8888
+                    port: 8888,
+                    base: 'dist'
                 }
             }
         },
@@ -210,14 +225,14 @@ module.exports = function(grunt) {
         watch: {
             dev: {
                 files: [ 'Gruntfile.js', 'app/*.js', '*.html','styles/*.scss' ],
-                tasks: [ 'sass', 'jshint','clean:temp','html2js:dist','copy:main', 'concat:dist','cssmin' ],
+                tasks: [ 'sass', 'jshint','clean:temp','html2js:dist','copy', 'concat:dist','cssmin' ],
                 options: {
                     atBegin: true
                 }
             },
             min: {
                 files: [ 'Gruntfile.js', 'app/*.js', '*.html','styles/*.scss' ],
-                tasks: [ 'sass', 'jshint','clean:temp','html2js:dist','copy:main', 'concat:dist', 'uglify:dist','cssmin' ],
+                tasks: [ 'sass', 'jshint','clean:temp','html2js:dist','copy', 'concat:dist', 'uglify:dist','cssmin' ],
                 options: {
                     atBegin: true
                 }

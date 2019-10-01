@@ -1,0 +1,50 @@
+<div class="page-signin">
+
+    <div class="signin-header">
+        <div class="container text-center">
+            <section class="logo">
+                <a href="#/">
+                    <md-icon class="color-primary" md-svg-src="img/CS_sygnet.svg"></md-icon>
+                </a>
+            </section>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="container">
+            <div class="form-container">
+
+
+
+                <form class="form-horizontal">
+                    <fieldset>
+                        <div class="form-group">
+                            <md-input-container md-no-float>
+                                <md-icon md-svg-src="img/icons/ic_person_24px.svg"></md-icon>
+                                <input ng-model="user.name" type="text" placeholder="Name">
+                            </md-input-container>
+                        </div>
+                        <div class="form-group">
+                            <md-input-container class="md-primary" md-no-float>
+                                <md-icon md-svg-src="img/icons/ic_lock_24px.svg"></md-icon>
+                                <input ng-model="user.phone" type="text" placeholder="Password">
+                            </md-input-container>
+                        </div>
+                        <div class="form-group">
+                        </div>
+                        <div class="form-group">
+                            <md-button class="btn-width-large btn-block btn-lg md-primary md-raised">Zaloguj</md-button>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <section>
+                    <p class="text-center"><a href="#/pages/forgot">Zapomniałeś hasła?</a></p>
+                    <p class="text-center text-muted text-small">Nie masz jeszcze konta - zarejestruj się? <a href="#/pages/signup">Zarejestruj się</a></p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+</div>

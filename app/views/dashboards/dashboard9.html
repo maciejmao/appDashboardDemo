@@ -1,0 +1,298 @@
+<!-- Breadcrumbs -->
+<div class="region-breadcrumbs">
+    <ol class="breadcrumb">
+        <li><a href="#/"><i class="fa fa-home"></i></a></li>
+        <li class="active">Grywalizacja</li>
+    </ol>
+</div>
+<!-- end Breadcrumbs -->
+
+<div class="page page-dashboard ng-scope" data-ng-controller="morrisChartCtrl">
+
+
+    <section>
+    
+        <div class="row">
+    
+            
+            <div class="col-md-4">
+    
+              <section class="md-content-section">
+                <md-toolbar class="md-accent md-default-theme">
+                  <div class="md-toolbar-tools">
+                    <strong>Stopień nasycenia ciepłem</strong>
+                  </div>
+                </md-toolbar>
+    
+                <md-content class="md-default-theme">
+                  <div class="md-content__body">
+                    <div morris-chart="" data-data="[{
+                                        label: &quot;Nasycenie&quot;,
+                                        value: 236                                }, {
+                                        label: &quot;Pozostało&quot;,
+                                        value: 324                                                                                
+                                    }]" data-type="donut" data-xkey="year" data-colors="[&quot;#D32F2F&quot;,&quot;#777777&quot;,&quot;#F2B53F&quot;,&quot;#C62828&quot;]" class="ng-isolate-scope"></div>
+                            <br>
+                  </div>
+                </md-content>
+    
+              </section>
+            </div>
+    
+            <div class="col-md-8">
+    
+              <section class="md-content-section">
+                <md-toolbar class="md-accent md-default-theme">
+                  <div class="md-toolbar-tools">
+                    <strong>Nasycenie ciepłem w kategoriach</strong>
+                  </div>
+                </md-toolbar>
+    
+                <md-content class="md-default-theme">
+                  <div class="md-content__body">
+    
+                     <div class="small-progress">
+                    <p class="text-muted">
+                      Wdrożenie marki
+                      <span class="pull-right"><strong>13</strong> /31 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="41" type="warning"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Standardy marketingowe
+                      <span class="pull-right"><strong>22</strong> /62 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="35" type="success"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Działania B2C
+                      <span class="pull-right"><strong>40</strong> /59 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="70" type="danger"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Działania B2B
+                      <span class="pull-right"><strong>10</strong> /30 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="30" type="info"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Public relations
+                      <span class="pull-right"><strong>15</strong> /20 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="75" type="warning"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Akcje lokalne
+                      <span class="pull-right"><strong>76</strong> /135 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="45" type="success"></progressbar>
+                  </div>
+                  <br>
+    
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Zaangażowanie we współtworzenie marki
+                      <span class="pull-right"><strong>3</strong> /23 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="10" type="danger"></progressbar>
+                  </div> 
+                  <br>
+                  
+                  <div class="small-progress">
+                    <p class="text-muted">
+                      Premia za aktywność
+                      <span class="pull-right"><strong>5</strong> /30 pkt.</span>
+                    </p>
+                    <progressbar class="progressbar-xs no-margin" value="5" type="danger"></progressbar>
+                  </div> 
+    
+                </div>
+                </md-content>
+    
+              </section>
+            </div>
+    
+        </div>
+    </section>
+    
+    <section>
+      <div class="row ng-scope" ng-controller="chartingCtrl">
+    
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Nagroda 1 poziomu</h3>
+            </div>
+            <div class="panel-body text-center">
+    
+              <div>
+                <p class="text-center">
+                    </p><h2>36 ° / 216 ° </h2>                   
+                <p></p>
+                <progressbar class="progressbar-sm progress-striped active" value="16"></progressbar>
+              </div>
+    
+              <div class="info">
+                <h3>Kompletowana</h3>            
+              </div>
+              <hr>
+              <div class="info">
+              - rabat wysokości 10% na wspólne produkcje<br>
+              - pomoc we wdrożeniu strony www na bazie szablonu CS
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Nagroda 2 poziomu</h3>
+            </div>
+            <div class="panel-body text-center">
+    
+              <div>
+                <p class="text-center">                  
+                      </p><h2>66 ° / 252 ° </h2> 
+                <p></p>
+                <progressbar class="progressbar-sm progress-striped active" value="30"></progressbar>
+              </div>
+    
+              <div class="info">
+                <h3>Kompletowana</h3>            
+              </div>
+              <hr>
+              <div class="info">
+              - dodatkowa baza zdjęć do wykorzystania z projektami promującymi CS<br>
+              - darmowa lokalna dokrętka do spotu radiowego
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Nagroda 3 poziomu</h3>
+            </div>
+            <div class="panel-body text-center">
+    
+              <div>
+                <p class="text-center">                  
+                      </p><h2>96 ° / 288 ° </h2> 
+                <p></p>
+                <progressbar class="progressbar-sm progress-striped active" value="60"></progressbar>
+              </div>
+    
+              <div class="info">
+                <h3>Kompletowana</h3>            
+              </div>
+              <hr>
+              <div class="info">
+              - rabat 15% na wspólne produkcje<br>
+              - opracowanie/odświeżenie logo firmy (znak i kolorystyka, bez księgi identyfikacji)
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Nagroda 4 poziomu</h3>
+            </div>
+            <div class="panel-body text-center">
+    
+              <div>
+                <p class="text-center">                  
+                      </p><h2>76 ° / 324 ° </h2> 
+                <p></p>
+                <progressbar class="progressbar-sm progress-striped active" value="40"></progressbar>
+              </div>
+    
+              <div class="info">
+                <h3>Kompletowana</h3>            
+              </div>
+              <hr>
+              <div class="info">
+              - konsulting i obsługa lokalnej kampanii w wyszukiwarce AdWords<br>
+              - darmowy udział w spotkaniu uczestników dla jednej osoby
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        
+    
+    
+      </div>
+    </section>
+    
+    
+    <section>
+    
+      <div class="row">
+        <div class="col-sm-12">
+    
+          <section class="md-content-section">
+    
+            <md-content>
+    
+            <md-toolbar class="md-accent">
+                  <div class="md-toolbar-tools">
+                    <strong>Top 5 - najwyżej notowane spółki</strong>
+                  </div>
+                </md-toolbar>
+              <div class="md-content__body">
+    
+                <div id="top5" morris-chart class="tabeleczka"
+                         data-data='[   {
+                "firma": "PEC\nGniezno",
+                "a": 40            
+            }, {
+                "firma": "LPEC\nLublin",
+                "a": 36        }, {
+                "firma": "PEC\nBełchatów",
+                "a": 32        }, {
+                "firma": "Veolia Polska\nWarszawa",
+                "a": 29        }, {
+                "firma": "MPEC\nBrzesko",
+                "a": 28                           
+            }]'
+                         data-type="bar"
+                         data-xkey="firma"
+                         data-ykeys='["a"]'
+                         data-labels='["Stopnie"]'
+                         data-bar-colors='{{comboColors}}'                    
+                            ></div>
+              </div>
+            </md-content>
+    
+          </section>
+    
+    
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    </div>
+  

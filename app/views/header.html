@@ -1,0 +1,67 @@
+<!-- Logo -->
+<div class="logo" data-ng-controller="AdminAppCtrl">
+    <a class="logo-link" href="#/">
+        <md-icon md-svg-src="img/CS_sygnet.svg"></md-icon>
+    </a>
+</div>
+<header class="clearfix md-whiteframe-z1">
+
+    <div class="top-nav">
+        <ul class="nav-left list-unstyled">
+            <li>
+                <!-- needs to be put after logo to make it working-->
+                <div class="menu-button" toggle-off-canvas>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+
+            </li>
+            <li>
+                <a md-ink-ripple="#bbb" href="#/" data-toggle-min-nav class="toggle-min"><i class="fa fa-list color-white"></i></a>
+            </li>
+
+        </ul>
+
+        <ul class="nav-button pull-right list-unstyled">
+
+            <li class="dropdown text-small nav-profile">
+                <a md-ink-ripple="#bbb" href="javascript:;" class="dropdown-toggle text-muted" data-toggle="dropdown" aria-expanded="false">
+                    <span class="nav-profile__welcome-text"><i class="fa fa-angle-down"></i>&nbsp; Zalogowany Zenon Skalski &nbsp; </span><img src="img/user.png" alt="" class="img30_30">
+                </a>
+
+                <div class="dropdown-menu pull-right panel panel-default">
+
+                    <ul class="list-group">
+
+                        <li class="list-group-item--header">
+                            Ustawienia profilu
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="#/pages/profile">
+
+                                <span>Profil</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="panel-footer">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#/pages/signin">
+                                    <md-icon class="color-danger" md-svg-src="img/icons/ic_exit_to_app_24px.svg"></md-icon>
+                                    <span>Wyloguj</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+</header>

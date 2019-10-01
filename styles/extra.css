@@ -1,0 +1,176 @@
+
+.page a:not(.btn) {
+    color: #E3090D;
+}
+
+.download_list {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px dotted #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download_list img {
+    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.download_list a p {
+    text-decoration: none;
+    color: #E3090D;
+    line-height: 1.2em;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.md-content__download {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.panel-profile .panel-heading {
+    border-bottom: 2px solid #D32F2F;
+    background: transparent url("../dist/download/akcje_promocyjne/zbnk_head.jpg") repeat scroll center center / cover;
+    position: relative;
+}
+
+.akcja_header {
+    width: 100%;
+    height: auto;
+}
+
+.ribbon-wrapper .ribbon {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    transform: rotate(45deg);
+    padding: 7px 0px;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    line-height: 20px;
+    background-color: #3F4245;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.do-pobrania {
+    margin-bottom: 30px;
+}
+
+select.md-input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select.md-input,
+md-input-container:not(.md-input-has-value) input:not(:focus) {
+    color: #757575 !important;
+}
+
+md-input-container>md-icon+select {
+    margin-left: 56px;
+}
+
+form .form-errors li {
+    color: #D32F2F;
+}
+
+form .form-loader {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.breadcrumb>li+li::before {
+    color: #CCC;
+}
+
+.md-content__download ul {
+    padding: 0;
+    margin: 0;
+}
+
+.md-button {
+    display: table-cell;
+}
+
+.galeria-block {
+    margin-bottom: 20px;
+}
+
+.page button.md-fab {
+    cursor: default;
+}
+
+.top-header .top-nav .nav-button>li.nav-profile .dropdown-menu.panel .list-group-item--header {
+    font-size: 12px;
+    color: #333;
+}
+
+md-card .card-bg-icon {
+    opacity: 0.1;
+}
+
+.ui-timeline .tl-time {
+    font-size: 16px;
+}
+
+.ui-timeline .tl-item .tl-body .tl-time {
+    left: -220px;
+}
+
+.ui-timeline .tl-item.alt .tl-body .tl-time {
+    right: -220px;
+}
+
+.text-alert {
+    font-style: italic;
+}
+
+.logo-search {
+    width: 170px;
+    margin: 0px 0 0 22px;
+    float: left;
+    position: relative
+}
+
+
+/* *** full heat *** */
+
+.full-heat {
+    margin-top: 20px;
+    width: 65%;
+    text-align: center;
+}
+
+.full-heat>p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.full-heat>img {
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .full-heat {
+        width: 50%;
+    }
+    .full-heat>p {
+        font-size: 14px;
+    }
+    .full-heat>img {
+        margin-left: 0;
+        width: 70px;
+    }
+}

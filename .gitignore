@@ -1,0 +1,7 @@
+#Ignore dis folder and node_modules folder
+.idea/*
+dist/
+node_modules
+bower_components
+tmp
+.DS_Store
